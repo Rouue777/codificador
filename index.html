@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css"  rel="stylesheet">
+    <title>criptografia e descriptografia</title>
+    <link rel="shortcut icon" href="./Images/lua nao cheia.jpg" type="image/x-icon">
+</head>
+<body>
+    
+
+<main>
+    <header class="cabecalho">
+         <img src="./Images/colecao-neon-de-fases-da-lua_125540-2391.avif" alt="fases da lua logo">
+         <h1>moon codificador</h1>
+    </header>
+
+    <div class="containerInput">
+        <div class="input">
+            <textarea id="entradaTexto"  class="inputTexto" type="text" placeholder="Digite seu texto aqui..." ></textarea>
+            <p>Atenção! apenas letras minusculas e sem acento</p>
+        </div>
+
+
+        <div id="output">
+            <img src="./Images/lua nao cheia.jpg" alt="">
+            <h2>Sua mensagem ira aparecer aqui!</h2>
+            <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+
+        </div>
+
+    </div>
+
+
+    <div class="buttons">
+        <div class="containerBtn">
+            <button class="btnCriptografar" onclick="criptografar()">
+                criptografar
+            </button>
+            <button class="btnDescriptografar" onclick="descriptografar()">
+                descriptografar
+            </button>
+        </div>
+
+
+    </div>
+
+
+
+    
+
+</main>
+<footer class="rodape">
+    <div class="icons">
+        <a href=""><ion-icon name="logo-github"></ion-icon></a>
+        <h3>Desensolvido por Jeferson Santos </h3>
+
+    </div>
+
+</footer>
+
+
+    <script src="./script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
